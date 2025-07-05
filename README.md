@@ -101,3 +101,48 @@ Build a simple to-do list with the ability to add and remove items.
 
 
 
+# Day4 ------------------------------------------------------------
+# Routing With React Router
+--This allows you to make multipages app using React Router DOM.
+
+# What is React Router?
+React router lets you build single page apps with multiple routes(URLS) like :
+-- '/'  -> Home page
+-- '/about'  ->About page
+-- '/profile'  -> profile page
+ - NOTE:-  React handles it all without reloading the page.
+
+ # Route Parameters(/user/:id)
+ --Use route parameters when you want dynamic URL like viewing a user profile by ID.
+ --(see in RouterParameters.jsx)
+ 
+
+# Programmatic Navigation
+ Instead of clicking a link , you can navigate via code(e.g. after form submission or a button click).
+--(see in Login.jsx)
+
+
+# 404 Not Found Route
+--<Route path="*" element={<NotFound />} />
+
+
+# Mini project(Mini Dashboard App)
+- PAGES
+  -- '/' -->Home 
+  -- '/login' -->Login Page
+  -- '/dashboard' --> Protected page(only visible when logged in)
+  -- '/user/:id' -->user detail page (uses URL param)
+  -- '*' -->404 Not Found
+
+- FEATURES
+  -- Simulated login(useState)
+  --Redirect after Login
+  -- Block access to dahboard if not logged in
+  -- Navigate to '/user/101 with dynamic route.
+
+
+# useEffect Hook
+-- useEffect hook is used to handle side effects.
+-- Anything that happens outside of the component's render is called side effects( Api calls , timers .accessing local storage).
+ 
+ 

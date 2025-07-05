@@ -10,6 +10,8 @@ import Todo from './componentsDay2/Todo'
 import ConditionalRendering from './componentsDay3/ConditionalRendering'
 import ExampleConditionalRendering from './componentsDay3/ExampleConditionalRendering'
 import UserCard from './componentsDay3/UserCard'
+import ComponentDay4 from './componentsDay4/ComponentDay4'
+import Project from './componentsDay4/React-Router/MiniProject.jsx/Project'
 
 const App = () => {
   return (
@@ -24,8 +26,10 @@ const App = () => {
       {/* <Todo/> */}
       {/* <ConditionalRendering/> */}
       {/* <ExampleConditionalRendering/> */}
-      <UserCard name={"Hunny"} age={25} hobby={"Playing Cards"} />
-      <UserCard name={"Kumar"} age={25} hobby={"Playing PS5"} />
+      {/* <UserCard name={"Hunny"} age={25} hobby={"Playing Cards"} />
+      <UserCard name={"Kumar"} age={25} hobby={"Playing PS5"} /> */}
+      {/* <ComponentDay4/> */}
+      <Project/>
     </div>
   )
 }
